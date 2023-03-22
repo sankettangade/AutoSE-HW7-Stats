@@ -2,21 +2,7 @@
 
  
  # `Lua to Python - AutoSE HW7 - Stats`
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7703078.svg)](https://doi.org/10.5281/zenodo.7703078)
-![license](https://img.shields.io/github/license/amisha-w/AutoSE-HW6-Explain)
-![Repo Size](https://img.shields.io/github/repo-size/amisha-w/AutoSE-HW6-Explain)
-[![codecov](https://codecov.io/gh/amisha-w/AutoSE-HW6-Explain/branch/main/graph/badge.svg?token=)](https://codecov.io/gh/amisha-w/AutoSE-HW5-Bins)<br/>
-![Test Cases](https://img.shields.io/github/actions/workflow/status/amisha-w/AutoSE-HW6-Explain/tests.yml?label=Test%20Cases)
-![Issues](https://img.shields.io/github/issues-closed-raw/amisha-w/AutoSE-HW6-Explain?color=yellow)
-![Release](https://img.shields.io/github/v/release/amisha-w/AutoSE-HW6-Explain?color=green)
-![Contributors](https://img.shields.io/github/contributors/amisha-w/AutoSE-HW6-Explain?color=cyan)
-![PR](https://img.shields.io/github/issues-pr/amisha-w/AutoSE-HW6-Explain?color=red)
-![PR Closed](https://img.shields.io/github/issues-pr-closed-raw/amisha-w/AutoSE-HW6-Explain?color=red)
-![Pylint](https://img.shields.io/github/actions/workflow/status/amisha-w/AutoSE-HW6-Explain/pylint.yml?label=PyLint)
-![Python Style Checker](https://img.shields.io/github/actions/workflow/status/amisha-w/AutoSE-HW6-Explain/style_checker.yml?label=Python%20Style%20Checker)
-![Commit Activity](https://img.shields.io/github/commit-activity/w/amisha-w/AutoSE-HW6-Explain?color=blue)
-
+ 
 </div>
 This project translates a Lua application to Python application complete with CI/CD pipeline and demonstrates Test-Driven development. It is a homework repository for CSC 591 course. 
 
