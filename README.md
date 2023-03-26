@@ -3,6 +3,19 @@
  
  # `Lua to Python - AutoSE HW7 - Stats`
  
+![license](https://img.shields.io/github/license/sankettangade/AutoSE-HW7-Stats)
+![Repo Size](https://img.shields.io/github/repo-size/sankettangade/AutoSE-HW7-Stats)
+[![codecov](https://codecov.io/gh/amisha-w/AutoSE-HW6-Explain/branch/main/graph/badge.svg?token=)](https://codecov.io/gh/amisha-w/AutoSE-HW5-Bins)<br/>
+![Test Cases](https://img.shields.io/github/actions/workflow/status/sankettangade/AutoSE-HW7-Stats/tests.yml?label=Test%20Cases)
+![Issues](https://img.shields.io/github/issues-closed-raw/sankettangade/AutoSE-HW7-Stats?color=yellow)
+![Release](https://img.shields.io/github/v/release/sankettangade/AutoSE-HW7-Stats?color=green)
+![Contributors](https://img.shields.io/github/contributors/sankettangade/AutoSE-HW7-Stats?color=cyan)
+![PR](https://img.shields.io/github/issues-pr/sankettangade/AutoSE-HW7-Stats?color=red)
+![PR Closed](https://img.shields.io/github/issues-pr-closed-raw/sankettangade/AutoSE-HW7-Stats?color=red)
+![Pylint](https://img.shields.io/github/actions/workflow/status/sankettangade/AutoSE-HW7-Stats/pylint.yml?label=PyLint)
+![Python Style Checker](https://img.shields.io/github/actions/workflow/status/sankettangade/AutoSE-HW7-Stats/style_checker.yml?label=Python%20Style%20Checker)
+![Commit Activity](https://img.shields.io/github/commit-activity/w/sankettangade/AutoSE-HW7-Stats?color=blue)
+ 
 </div>
 This project translates a Lua application to Python application complete with CI/CD pipeline and demonstrates Test-Driven development. It is a homework repository for CSC 591 course. 
 
