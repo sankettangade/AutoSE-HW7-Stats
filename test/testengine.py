@@ -1,7 +1,7 @@
 import sys
 import numpy as np
 
-sys.path.append("../src")
+sys.path.append("./src")
 
 from main import *
 from utils import *
