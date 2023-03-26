@@ -1,0 +1,236 @@
+
+--
+✅ pass: ok
+--
+ beaca
+ ddddb
+ adadd
+ eadcb
+ eacaa
+ aeadb
+ daebd
+ debcb
+ bdcad
+ eabca
+✅ pass: sample
+--
+ 10 5.5 0
+✅ pass: nums
+--
+ 10000 10.013090245127714 0
+✅ pass: gauss
+--
+ mu sd cliffs boot both
+ -- -- ------ ---- ----
+ 10.0 1 False True False
+ 10.1 1 False True False
+ 10.2 1 True True True
+ 10.3 1 False True False
+ 10.4 1 False True False
+ 10.5 1 True False False
+ 10.6 1 True False False
+ 10.7 1 True False False
+ 10.8 1 True False False
+ 10.9 1 True False False
+ 11.0 1 True False False
+✅ pass: bootmu
+--
+                truee True False
+                false False True
+                false False True
+✅ pass: basic
+--
+
+eg3
+         1 True True True
+         1.05 True False True
+         1.1 False False True
+         1.15 False False True
+         1.2 False False True
+         1.25 False False True
+         1.3 False False True
+         1.35 False False True
+         1.4 False False True
+         1.45 False False True
+✅ pass: pre
+--
+Traceback (most recent call last):
+  File "/Users/amisha/Documents/#Spring23/AutoSE/AutoSE-HW7-Stats/test/testengine.py", line 159, in <module>
+    main(options, help, egs)
+  File "/Users/amisha/Documents/#Spring23/AutoSE/AutoSE-HW7-Stats/test/../src/main.py", line 45, in main
+    if funs[what]() == False:
+  File "/Users/amisha/Documents/#Spring23/AutoSE/AutoSE-HW7-Stats/test/testengine.py", line 76, in test_five
+    for rx in tiles(scottKnot(
+  File "/Users/amisha/Documents/#Spring23/AutoSE/AutoSE-HW7-Stats/test/../src/utils.py", line 298, in tiles
+    for i in range(0, the['width'] + 1):
+NameError: name 'the' is not defined
+amisha@Amishas-Air test % python3 testengine.py -g all
+--
+✅ pass: ok
+--
+ beaca
+ ddddb
+ adadd
+ eadcb
+ eacaa
+ aeadb
+ daebd
+ debcb
+ bdcad
+ eabca
+✅ pass: sample
+--
+ 10 5.5 0
+✅ pass: nums
+--
+ 10000 10.013090245127714 0
+✅ pass: gauss
+--
+ mu sd cliffs boot both
+ -- -- ------ ---- ----
+ 10.0 1 False True False
+ 10.1 1 False True False
+ 10.2 1 True True True
+ 10.3 1 False True False
+ 10.4 1 False True False
+ 10.5 1 True False False
+ 10.6 1 True False False
+ 10.7 1 True False False
+ 10.8 1 True False False
+ 10.9 1 True False False
+ 11.0 1 True False False
+✅ pass: bootmu
+--
+                truee True False
+                false False True
+                false False True
+✅ pass: basic
+--
+
+eg3
+         1 True True True
+         1.05 True False True
+         1.1 False False True
+         1.15 False False True
+         1.2 False False True
+         1.25 False False True
+         1.3 False False True
+         1.35 False False True
+         1.4 False False True
+         1.45 False False True
+✅ pass: pre
+--
+rx5 1 ------   *------    |                    ['0.10', '0.20', '0.30', '0.30', '0.40']
+rx3 1   ------    *---    |                    ['0.15', '0.25', '0.35', '0.35', '0.40']
+rx1 2             --------*-----               ['0.34', '0.49', '0.51', '0.51', '0.60']
+rx4 3                     |    ------    *-----['0.60', '0.70', '0.80', '0.80', '0.90']
+rx2 3                     |    ------    *-----['0.60', '0.70', '0.80', '0.80', '0.90']
+✅ pass: five
+--
+rx1 1 -----------         *--------------------['99.00', '99.50', '100.00', '100.00', '101.00']
+rx3 1 -----------         *--------------------['99.00', '99.50', '100.00', '100.00', '101.00']
+rx4 2 -                   *                   -['99.00', '99.00', '100.00', '101.00', '101.00']
+rx2 3 -                   *                   -['99.00', '99.00', '100.00', '101.00', '101.00']
+✅ pass: six
+--
+Traceback (most recent call last):
+  File "/Users/amisha/Documents/#Spring23/AutoSE/AutoSE-HW7-Stats/test/testengine.py", line 159, in <module>
+    main(options, help, egs)
+  File "/Users/amisha/Documents/#Spring23/AutoSE/AutoSE-HW7-Stats/test/../src/main.py", line 45, in main
+    if funs[what]() == False:
+  File "/Users/amisha/Documents/#Spring23/AutoSE/AutoSE-HW7-Stats/test/testengine.py", line 116, in test_tiles
+    rxs = rxs_sort(rxs)
+NameError: name 'rxs_sort' is not defined
+amisha@Amishas-Air test % python3 testengine.py -g all
+--
+✅ pass: ok
+--
+ beaca
+ ddddb
+ adadd
+ eadcb
+ eacaa
+ aeadb
+ daebd
+ debcb
+ bdcad
+ eabca
+✅ pass: sample
+--
+ 10 5.5 0
+✅ pass: nums
+--
+ 10000 10.013090245127714 0
+✅ pass: gauss
+--
+ mu sd cliffs boot both
+ -- -- ------ ---- ----
+ 10.0 1 False True False
+ 10.1 1 False True False
+ 10.2 1 True True True
+ 10.3 1 False True False
+ 10.4 1 False True False
+ 10.5 1 True False False
+ 10.6 1 True False False
+ 10.7 1 True False False
+ 10.8 1 True False False
+ 10.9 1 True False False
+ 11.0 1 True False False
+✅ pass: bootmu
+--
+                truee True False
+                false False True
+                false False True
+✅ pass: basic
+--
+
+eg3
+         1 True True True
+         1.05 True False True
+         1.1 False False True
+         1.15 False False True
+         1.2 False False True
+         1.25 False False True
+         1.3 False False True
+         1.35 False False True
+         1.4 False False True
+         1.45 False False True
+✅ pass: pre
+--
+rx5 1 ------   *------    |                    ['0.10', '0.20', '0.30', '0.30', '0.40']
+rx3 1   ------    *---    |                    ['0.15', '0.25', '0.35', '0.35', '0.40']
+rx1 2             --------*-----               ['0.34', '0.49', '0.51', '0.51', '0.60']
+rx4 3                     |    ------    *-----['0.60', '0.70', '0.80', '0.80', '0.90']
+rx2 3                     |    ------    *-----['0.60', '0.70', '0.80', '0.80', '0.90']
+✅ pass: five
+--
+rx1 1 -----------         *--------------------['99.00', '99.50', '100.00', '100.00', '101.00']
+rx3 1 -----------         *--------------------['99.00', '99.50', '100.00', '100.00', '101.00']
+rx4 2 -                   *                   -['99.00', '99.00', '100.00', '101.00', '101.00']
+rx2 3 -                   *                   -['99.00', '99.00', '100.00', '101.00', '101.00']
+✅ pass: six
+--
+ rx7   -*-               |                    ['8.75', '9.50', '10.01', '10.55', '11.32']
+ rx2   -*-               |                    ['8.80', '9.53', '10.03', '10.57', '11.28']
+ rx1   -*-               |                    ['8.81', '9.55', '10.03', '10.55', '11.25']
+ rx3            -*-      |                    ['18.70', '19.42', '19.95', '20.48', '21.16']
+ rx6   -*-               |                    ['8.73', '9.52', '10.09', '10.62', '11.31']
+ rx4                     |-*-                 ['28.65', '29.44', '29.97', '30.50', '31.27']
+ rx10   -*-               |                    ['8.71', '9.53', '10.02', '10.52', '11.20']
+ rx5                     |-*-                 ['28.90', '29.57', '30.09', '30.57', '31.32']
+ rx8                     |         -*-        ['38.73', '39.49', '40.04', '40.57', '41.25']
+ rx9                     |      --- * ---     ['36.29', '38.41', '40.14', '41.67', '44.12']
+✅ pass: tiles
+--
+ 1 rx1   -*-               |                    ['8.79', '9.46', '9.98', '10.43', '11.22']
+ 1 rx7   -*-               |                    ['8.66', '9.50', '9.99', '10.48', '11.28']
+ 1 rx6   -*-               |                    ['8.79', '9.49', '10.04', '10.52', '11.24']
+ 1 rx10   -*-               |                    ['8.79', '9.53', '10.06', '10.57', '11.33']
+ 1 rx2   -*-               |                    ['8.91', '9.64', '10.12', '10.66', '11.40']
+ 2 rx3            -*-      |                    ['18.76', '19.50', '20.07', '20.57', '21.28']
+ 3 rx8                     |        -*-         ['38.71', '39.49', '40.06', '40.56', '41.27']
+ 4 rx5                     |*-                  ['28.82', '29.64', '30.15', '30.64', '31.37']
+ 4 rx4                     |*-                  ['28.63', '29.46', '29.94', '30.52', '31.24']
+ 5 rx9                     |      ---* ---      ['36.19', '38.54', '40.11', '41.70', '44.16']
+✅ pass: sk
+🔆 {'pass': 11, 'fail': 0, 'success': 100.0}
