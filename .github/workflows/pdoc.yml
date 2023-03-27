@@ -30,9 +30,7 @@ jobs:
             pdoc ./src/num.py -o ./docs
             pdoc ./src/sym.py -o ./docs
             pdoc ./src/utils.py -o ./docs
-            pdoc ./src/rows.py -o ./docs
-            pdoc ./src/cols.py -o ./docs
-            pdoc ./src/data.py -o ./docs
+            pdoc ./src/constants.py -o ./docs
       - uses: actions/upload-pages-artifact@v1
         with:
           path: ./docs
