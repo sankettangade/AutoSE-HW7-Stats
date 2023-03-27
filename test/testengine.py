@@ -5,7 +5,7 @@ sys.path.append("./src")
 
 from main import *
 from utils import *
-from num import NUM
+from num import *
 
 def test_ok(n=1):
     random.seed(n)
