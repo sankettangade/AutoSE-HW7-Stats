@@ -23,7 +23,9 @@ jobs:
       with:
         python-version: "3.10"
 #   
-    - run: pip install coverage
+    - run: |
+        pip install -r ././requirements.txt
+        pip install coverage
     - run: coverage run ./test/testengine.py -g all
 
     - name: Upload coverage to Codecov
@@ -31,7 +33,6 @@ jobs:
       
     - name: Run tests
       run: |
-        pip install -r requirements.txt
         python ./test/testengine.py -g all
     - run: echo "🍏 This job's status is ${{ job.status }}."
     - run: echo "Test Workflow is successfully completed. 😊"
