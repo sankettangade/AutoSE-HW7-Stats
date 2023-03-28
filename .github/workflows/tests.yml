@@ -31,6 +31,7 @@ jobs:
       
     - name: Run tests
       run: |
+        pip install -r requirements.txt
         python ./test/testengine.py -g all
     - run: echo "🍏 This job's status is ${{ job.status }}."
     - run: echo "Test Workflow is successfully completed. 😊"
