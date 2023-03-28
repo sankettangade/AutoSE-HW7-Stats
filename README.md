@@ -2,10 +2,11 @@
 
  
  # `Lua to Python - AutoSE HW7 - Stats`
- 
+
+[![DOI](https://zenodo.org/badge/617264400.svg)](https://zenodo.org/badge/latestdoi/617264400)
 ![license](https://img.shields.io/github/license/sankettangade/AutoSE-HW7-Stats)
 ![Repo Size](https://img.shields.io/github/repo-size/sankettangade/AutoSE-HW7-Stats)
-[![codecov](https://codecov.io/gh/amisha-w/AutoSE-HW6-Explain/branch/main/graph/badge.svg?token=)](https://codecov.io/gh/amisha-w/AutoSE-HW5-Bins)<br/>
+[![codecov](https://codecov.io/gh/sankettangade/AutoSE-HW7-Stats/branch/main/graph/badge.svg?token=)](https://codecov.io/gh/sankettangade/AutoSE-HW7-Stats)<br/>
 ![Test Cases](https://img.shields.io/github/actions/workflow/status/sankettangade/AutoSE-HW7-Stats/tests.yml?label=Test%20Cases)
 ![Issues](https://img.shields.io/github/issues-closed-raw/sankettangade/AutoSE-HW7-Stats?color=yellow)
 ![Release](https://img.shields.io/github/v/release/sankettangade/AutoSE-HW7-Stats?color=green)
